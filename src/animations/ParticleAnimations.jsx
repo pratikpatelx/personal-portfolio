@@ -3,7 +3,7 @@ import Particles from "react-particles-js";
 
 function ParticleAnimations() {
   return (
-    <div className="main-container">
+    <>
       <Particles
         params={{
           particles: {
@@ -49,7 +49,7 @@ function ParticleAnimations() {
           retina_detect: true,
         }}
       />
-    </div>
+    </>
   );
 }
 

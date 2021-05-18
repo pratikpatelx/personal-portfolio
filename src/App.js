@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import ParticleAnimations from "./animations/ParticleAnimations";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -20,6 +20,7 @@ function App() {
         <Route exact path="/resume" component={Resume}></Route>
         <Redirect to="/"></Redirect>
       </Switch>
+      <Footer></Footer>
     </>
   );
 }

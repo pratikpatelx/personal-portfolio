@@ -2,9 +2,11 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="page-footer">
-      <h1>Footer</h1>
-    </div>
+    <footer class="footer mt-auto py-3 bg-light">
+      <div className="container">
+        <span>Designed and Developed By Pratik Patel</span>
+      </div>
+    </footer>
   );
 }
 
