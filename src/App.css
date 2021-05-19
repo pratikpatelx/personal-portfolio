@@ -62,12 +62,12 @@
 }
 
 .home-test {
-  margin-top: 100px;
+  margin-top: 100px !important;
   height: 100%;
 }
 
 #col-test1 {
-  /* padding: 60px; */
+  padding: 60px;
   text-align: center;
   /* background-color: greenyellow; */
 }
@@ -109,14 +109,15 @@
 
 .h1-heading {
   font-size: 2.4em !important;
-  padding-left: 50px !important;
   padding-bottom: 15px !important;
   color: whitesmoke;
+  text-align: center;
 }
 
 #h2-text {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  text-align: center;
+  margin-right: 10px;
   color: whitesmoke;
 }
 
@@ -126,7 +127,6 @@
 
 .typing-animation {
   /* margin-bottom: 100px !important; */
-  padding: 20px !important;
   font-size: 1.4em !important;
 }
 
