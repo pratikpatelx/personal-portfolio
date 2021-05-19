@@ -8,7 +8,7 @@ function ParticleAnimations() {
         params={{
           particles: {
             number: {
-              value: 700,
+              value: 1000,
               density: {
                 enable: true,
                 value_area: 2000,
@@ -19,8 +19,8 @@ function ParticleAnimations() {
               opacity: 0.03,
             },
             move: {
-              direction: "right",
-              speed: 0.07,
+              direction: "left",
+              speed: 0.1,
             },
             size: {
               value: 0.75,
