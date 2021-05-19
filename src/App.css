@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Newsreader", serif;
+  /* background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35)); */
 }
 
 /*NAVIGATION BAR STYLING*/
@@ -12,24 +13,29 @@
 
 .navbar-brand {
   font-size: 1.9rem !important;
-  color: whitesmoke !important;
+  color: #c770f0 !important;
 }
 
 .navbar a {
   font-size: 1.3rem;
-  color: whitesmoke !important;
+  color: white !important;
   text-transform: capitalize;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
 
 .menu_active {
-  font-weight: bold;
+  color: #c770f0 !important;
+  border-radius: 16px;
   border-bottom: 3px solid #c95bf5;
 }
 
 .navbar a:hover {
-  color: #c770f0 !important;
+  border-bottom: 3px solid #c95bf5;
+  border-radius: 16px;
+  left: 0;
+  transition: all 0.3s ease-out 0s !important;
+  /* color: #c770f0 !important; */
 }
 
 @media (max-width: 991px) {
@@ -53,6 +59,17 @@
   font-size: 48px;
   font-weight: 700;
   color: whitesmoke;
+}
+
+.home-test {
+  margin-top: 100px;
+  height: 100%;
+}
+
+#col-test1 {
+  /* padding: 60px; */
+  text-align: center;
+  /* background-color: greenyellow; */
 }
 
 .wave {
@@ -91,11 +108,15 @@
 }
 
 .h1-heading {
-  font-size: 2.4em;
+  font-size: 2.4em !important;
+  padding-left: 50px !important;
+  padding-bottom: 15px !important;
   color: whitesmoke;
 }
 
 #h2-text {
+  font-size: 2.5em !important;
+  padding-left: 45px !important;
   color: whitesmoke;
 }
 
@@ -104,8 +125,9 @@
 }
 
 .typing-animation {
-  margin-bottom: 100px !important;
-  font-size: 2.1em;
+  /* margin-bottom: 100px !important; */
+  padding: 20px !important;
+  font-size: 1.4em !important;
 }
 
 .row {
