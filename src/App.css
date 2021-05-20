@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Newsreader", serif;
+  text-align: center;
   /* background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35)); */
 }
 
@@ -66,6 +67,10 @@
   height: 100%;
 }
 
+#col-test {
+  margin-top: 20px;
+}
+
 #col-test1 {
   padding: 60px;
   text-align: center;
@@ -126,7 +131,7 @@
 }
 
 .typing-animation {
-  /* margin-bottom: 100px !important; */
+  padding-right: 10px;
   font-size: 1.4em !important;
 }
 
@@ -144,6 +149,10 @@
 }
 
 .home-section {
+  position: relative !important;
+  /* padding-top: 150px !important; */
+  padding-bottom: 30px !important;
+  color: white !important;
   height: 120vh;
   background-color: #110f1c;
 }
@@ -205,4 +214,199 @@
 .row {
   margin: 0px;
   height: fit-content;
+}
+
+/*About Section*/
+.about-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  color: white !important;
+  height: 250vh !important;
+  width: 100% !important;
+  background-color: #110f1c;
+}
+
+@media (max-width: 767px) {
+  .about-section {
+    height: 400vh !important;
+  }
+}
+
+.about-row {
+  justify-content: center !important;
+  padding: 10px !important;
+}
+
+.about-cols {
+  justify-content: center !important;
+  padding-top: 30px !important;
+  padding-bottom: 50px !important;
+}
+
+.h1-col {
+  font-size: 2.1em !important;
+  padding-bottom: 20px !important;
+}
+
+.about-card {
+  border: none !important;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.card-p {
+  text-align: justify !important;
+}
+
+.about-list {
+  color: #c770f0 !important;
+  text-align: left !important;
+  padding-left: 1px !important;
+}
+
+.about-img-col {
+  padding-top: 120px !important;
+  padding-bottom: 50px !important;
+}
+
+@media (max-width: 767px) {
+  .about-img {
+    padding-top: 0 !important;
+  }
+}
+
+.home-img {
+  padding: 20px;
+}
+
+.skill-row {
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+}
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}
+
+.skill-test {
+  margin-top: 500px;
+}
+
+@media (max-width: 767px) {
+  .skill-test {
+    margin-top: 900px !important;
+  }
+}
+
+.tool-test {
+  margin-top: 300px;
+}
+
+@media (max-width: 767px) {
+  .tool-test {
+    margin-top: 800px !important;
+  }
+}
+
+/* @media (min-width: 768px) {
+  .tool-test {
+    margin-top: 500px !important;
+  }
+} */
+
+/*Projects Section*/
+.project-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  color: white !important;
+  height: 350vh !important;
+  width: 100% !important;
+  background-color: #110f1c;
+}
+
+@media (max-width: 767px) {
+  .project-section {
+    height: 700vh !important;
+  }
+}
+
+.project-heading {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+
+#project-p {
+  color: white !important;
+}
+
+.project-row {
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.project-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+
+.project-card-view {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+#card-p {
+  text-align: justify;
+}
+
+.blogs-section {
+  margin-top: 1200px;
+}
+
+@media (max-width: 767px) {
+  .blogs-section {
+    margin-top: 3000px !important;
+  }
 }
