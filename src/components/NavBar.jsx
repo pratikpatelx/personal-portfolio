@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -17,7 +16,7 @@ function NavBar() {
         <nav className="navbar fixed-top navbar-expand-lg navbar-light">
           <div className="container-fluid">
             <NavLink exact className="navbar-brand" to="/">
-              Pratik Patel
+              <strong className="name-color">Pratik Patel</strong>
             </NavLink>
             <button
               className="navbar-toggler"
@@ -29,6 +28,17 @@ function NavBar() {
             </button>
             <div className="collapse navbar-collapse" id="navbar-menu1">
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link active"
+                    aria-current="page"
+                    to="/"
+                  >
+                    <AiOutlineHome style={{ marginBottom: "5px" }} />
+                    Home
+                  </NavLink>
+                </li>
+
                 <li className="nav-item">
                   <NavLink
                     className="nav-link active"

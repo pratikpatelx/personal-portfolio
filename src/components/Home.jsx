@@ -4,11 +4,7 @@ import Hello from "../assets/Coding.svg";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import TypingAnimation from "../animations/TypingAnimation";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
