@@ -1,5 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import {
+  AiFillStar,
+  AiOutlineHome,
+  AiOutlineFundProjectionScreen,
+  AiOutlineUser,
+} from "react-icons/ai";
+
+import { CgFileDocument } from "react-icons/cg";
 
 import "../App.css";
 function NavBar() {
@@ -27,16 +35,21 @@ function NavBar() {
                     aria-current="page"
                     to="/about"
                   >
+                    <AiOutlineUser style={{ marginBottom: "5px" }} />
                     About
                   </NavLink>
                 </li>
                 <li className="nav-item ">
                   <NavLink className="nav-link" to="/projects">
+                    <AiOutlineFundProjectionScreen
+                      style={{ marginBottom: "2px" }}
+                    />
                     Projects
                   </NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/resume">
+                    <CgFileDocument style={{ marginBottom: "2px" }} />
                     Resume
                   </NavLink>
                 </li>
