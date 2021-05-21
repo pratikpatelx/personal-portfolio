@@ -1,13 +1,13 @@
 import React from "react";
 import ParticleAnimations from "../../animations/ParticleAnimations";
 import ProjectsCard from "./ProjectsCard";
-import sorting from "../../assets/Sorting.png";
-import answerBot from "../../assets/AnsBot.jpg";
-import keyboard from "../../assets/bg2.jpg";
-import server from "../../assets/server.jpg";
-import chat from "../../assets/chat.jpg";
-import flashCard from "../../assets/flashy.jpg";
-import construction from "../../assets/comingsoon.jpg";
+import sorting from "../../assets/pictures/Sorting.png";
+import answerBot from "../../assets/pictures/AnsBot.jpg";
+import keyboard from "../../assets/pictures/bg2.jpg";
+import server from "../../assets/pictures/server.jpg";
+import chat from "../../assets/pictures/chat.jpg";
+import flashCard from "../../assets/pictures/flashy.jpg";
+import construction from "../../assets/pictures/comingsoon.jpg";
 
 function Projects() {
   return (

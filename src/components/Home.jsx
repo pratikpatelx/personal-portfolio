@@ -1,6 +1,6 @@
 import React from "react";
 import ParticleAnimations from "../animations/ParticleAnimations";
-import Hello from "../assets/Coding.svg";
+import Hello from "../assets/pictures/Coding.svg";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import TypingAnimation from "../animations/TypingAnimation";

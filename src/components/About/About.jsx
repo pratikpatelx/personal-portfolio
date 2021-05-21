@@ -1,6 +1,6 @@
 import React from "react";
 import ParticleAnimations from "../../animations/ParticleAnimations";
-import aboutImg from "../../assets/About.svg";
+import aboutImg from "../../assets/pictures/About.svg";
 import Skillset from "./Skillset";
 import Toolset from "./Toolset";
 
