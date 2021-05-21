@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import Resume from "./components/Resume";
+import Resume from "./components/Resume/Resume";
 import NavBar from "./components/NavBar";
 
 function App() {
